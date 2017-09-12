@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NAudio.CoreAudioApi;
 using System.Threading;
 using System.Runtime.InteropServices;
@@ -85,7 +85,7 @@ namespace NAudio.Wave
 
         static MMDevice GetDefaultAudioEndpoint()
         {
-            if (Environment.OSVersion.Version.Major < 6)
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT && Environment.OSVersion.Version.Major < 6)
             {
                 throw new NotSupportedException("WASAPI supported only on Windows Vista and above");
             }
