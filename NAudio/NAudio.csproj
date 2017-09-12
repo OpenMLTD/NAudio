@@ -267,7 +267,7 @@
     <Compile Include="Gui\Pot.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Gui\Pot.designer.cs">
+    <Compile Include="Gui\Pot.Designer.cs">
       <DependentUpon>Pot.cs</DependentUpon>
     </Compile>
     <Compile Include="Gui\VolumeMeter.cs">
@@ -340,7 +340,7 @@
     <Compile Include="Utils\ProgressLog.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Utils\ProgressLog.designer.cs">
+    <Compile Include="Utils\ProgressLog.Designer.cs">
       <DependentUpon>ProgressLog.cs</DependentUpon>
     </Compile>
     <Compile Include="CoreAudioApi\AudioEndpointVolume.cs" />
